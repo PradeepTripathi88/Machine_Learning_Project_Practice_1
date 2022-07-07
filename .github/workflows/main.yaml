@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: gonuit/heroku-deploy@v3.12.12 # This is the action
+      - uses: gonuit/heroku-docker-deploy@v1.3.3 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "machine-learning-practice-1" #Must be unique in Heroku
