@@ -13,5 +13,5 @@ jobs:
       - uses: PradeepTripathi88/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "machinelearningproject1" #Must be unique in Heroku
+          heroku_app_name: "machine-learning-practice-1" #Must be unique in Heroku
           heroku_email: "pradeeptripathi144@gmail.com"
