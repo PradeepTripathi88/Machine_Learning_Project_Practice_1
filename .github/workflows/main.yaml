@@ -13,4 +13,4 @@ jobs:
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "machine-learning-practice-1" #Must be unique in Heroku
-          heroku_email: "pradeeptripathi144@gmail.com"
+          email: "pradeeptripathi144@gmail.com"
